@@ -8418,7 +8418,7 @@ function () {
             _context.next = 3;
             return (0, _axios.default)({
               method: 'POST',
-              url: 'http://127.0.0.1:3000/api/v1/users/login',
+              url: 'http://localhost:3000/api/v1/users/login',
               data: {
                 email: email,
                 password: password
@@ -8473,7 +8473,7 @@ function () {
             _context2.next = 3;
             return (0, _axios.default)({
               method: 'GET',
-              url: 'http://127.0.0.1:3000/api/v1/users/logout'
+              url: 'http://localhost:3000/api/v1/users/logout'
             });
 
           case 3:
@@ -8817,7 +8817,7 @@ var _mapbox = require("./mapbox");
 
 // DOM ELEMENTS
 var mapBox = document.getElementById('map');
-var loginForm = document.querySelector('.form');
+var loginForm = document.querySelector('.form--login');
 var logOutBtn = document.querySelector('.nav__el--logout'); //DELEGATION
 
 if (mapBox) {
@@ -8833,6 +8833,7 @@ if (loginForm) {
     var password = document.getElementById('password').value;
     (0, _login.login)(email, password);
   });
+  console.log(email, password);
 }
 
 if (logOutBtn) logOutBtn.addEventListener('click', _login.logout);
@@ -8864,7 +8865,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53253" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64722" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
