@@ -36,7 +36,7 @@ A Web App of a fictitious Tour company build with NodeJS runtime engine, pug's t
 - 👤GitHub: [Jose Abel Ramirez](https://github.com/jose-Abel)
 
 ## Getting Started
-You can clone this code anytime and load the HTML on your browser. Since it was build with NodeJS it's require the npm modules listed in the package.json in the dependencies section.
+You can clone this code anytime and so far you can load the Web App on your browser through the local port 3000. Since it was build with NodeJS it's require the installation of the npm modules listed in the package.json in the dependencies section.
 
 
 ## Live version
@@ -44,7 +44,7 @@ Soon
 
 
 ### Setup
-You can either copy the code with git clone or just do a git pull on your local environment. Have to do "npm install" so npm install all libraries included in the package.json file and to run the project locally run "npm run start".
+You can either copy the code with git clone or just do a git pull on your local environment. In order to run this web app locally you have to do "npm install" so npm can install all libraries included in the package.json file and then run "npm run start".
 
 
 ### Acknowledgments
