@@ -36,7 +36,7 @@ A Web App of a fictitious Tour company build with NodeJS runtime engine, pug's t
 - 👤GitHub: [Jose Abel Ramirez](https://github.com/jose-Abel)
 
 ## Getting Started
-You can clone this code anytime and load the HTML on your browser. Since it was build with vanilla JavaScript it doesn't need any other package.
+You can clone this code anytime and load the HTML on your browser. Since it was build with NodeJS it's require the npm modules listed in the package.json in the dependencies section.
 
 
 ## Live version
